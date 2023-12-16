@@ -68,9 +68,9 @@ body {
 
 .card {
   background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid black;
+  border: 2px solid #4B280A;
   border-radius: 20px;
-  box-shadow: 3px 3px;
+  box-shadow: 5px 5px #4B280A;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -81,7 +81,7 @@ body {
 }
 
 .card>img {
-  border: 1px solid black;
+  border: 2px solid #4B280A;
   border-radius: 100px;
   height: 175px;
   justify-content: center;
@@ -93,7 +93,7 @@ body {
 }
 
 .card-body h4 {
-  color: darkslategray;
+  color: #4B280A;
   font-weight: 300;
   margin-bottom: 0.75rem;
 }
@@ -106,7 +106,7 @@ body {
 
 .card-body-lower ul {
   display: flex;
-  margin: 1.5rem 0 2rem 0;
+  margin: 2rem 0;
 }
 
 .card-body-lower ul>li {
@@ -118,12 +118,12 @@ body {
 }
 
 .card-body-lower ul>li:first-child {
-  border-right: 1px solid black;
+  border-right: 2px solid #4B280A;
   padding-left: 0;
 }
 
 .card-body-lower ul>li:last-child {
-  border-left: 1px solid black;
+  border-left: 2px solid #4B280A;
   padding-right: 0;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .card-body-lower .buttons>button {
-  border: 1px solid black;
+  border: 2px solid #4B280A;
   border-radius: 7.5px;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -149,7 +149,7 @@ button.cyan:hover {
 }
 
 button.cyan:active {
-  background-color: black;
+  background-color: #4B280A;
   color: #7BEED9;
 }
 
@@ -162,7 +162,7 @@ button.gold:hover {
 }
 
 button.gold:active {
-  background-color: black;
+  background-color: #4B280A;
   color: #FFC48E;
 }
 
@@ -202,7 +202,7 @@ button.gold:active {
   }
 
   .card-body {
-    padding: 3rem 0;
+    padding: 2rem 0 3rem 0;
   }
 
   .card-body-lower {
