@@ -15,7 +15,7 @@ export default function SideBar({
   const pathname = usePathname();
 
   return (
-    <aside className="fixed right-0 flex min-h-screen w-[90px] flex-col items-center justify-center gap-8 border-l-2 border-l-slate-900">
+    <aside className="fixed flex min-h-[50px] w-full items-center justify-center gap-8 border-b-2 border-b-slate-900 sm:right-0 sm:min-h-screen sm:w-[90px] sm:flex-col sm:border-l-2 sm:border-l-slate-900">
       {links.map((link) => (
         <Link
           key={link.name}

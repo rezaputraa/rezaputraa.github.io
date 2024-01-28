@@ -27,7 +27,7 @@ export default function RootLayout({
         "min-h-screen bg-background font-sans antialiased",
         fontSans.variable
       )}>
-        <main className="me-[90px] overflow-hidden">
+        <main className="overflow-hidden sm:me-[90px]">
           <SideBar links={links} />
           {children}
         </main>

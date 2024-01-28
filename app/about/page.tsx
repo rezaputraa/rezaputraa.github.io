@@ -9,7 +9,7 @@ export default function Page() {
     <div className="flex min-h-screen flex-col items-center justify-center gap-40 md:flex-row">
       <div>
         <OrigamiProfile />
-        <Image src="./profile.jpg" alt="Reza" className="relative sm:h-[300px] sm:w-[300px]" height={200} width={200} />
+        <Image src="./profile.jpg" alt="Reza" className="relative sm:h-[300px] sm:w-[300px]" height={200} width={200} priority={true} />
       </div>
       <motion.div
         initial={{ opacity: 0 }}
