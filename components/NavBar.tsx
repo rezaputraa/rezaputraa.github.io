@@ -15,7 +15,7 @@ export default function NavBar({
   const pathname = usePathname();
 
   return (
-    <nav className="fixed bottom-0 flex min-h-[50px] w-full items-center justify-center gap-8 border-t-2 border-t-slate-900 sm:bottom-auto sm:right-0 sm:min-h-screen sm:w-[90px] sm:flex-col sm:border-l-2 sm:border-l-slate-900">
+    <nav className="fixed bottom-0 flex min-h-[50px] w-full items-center justify-center gap-8 border-t-2 border-t-slate-900 sm:bottom-auto sm:right-0 sm:min-h-screen sm:w-[90px] sm:flex-col sm:border-l-2 sm:border-t-0 sm:border-l-slate-900">
       {links.map((link) => (
         <Link
           key={link.name}
