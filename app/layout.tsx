@@ -12,7 +12,7 @@ const links = [
 ];
 
 export const metadata: Metadata = {
-  title: "Reza Putra | Backend Developer",
+  title: "Reza Putra | Full-Stack Developer",
   description: "Reza Putra's porfolio website.",
 };
 

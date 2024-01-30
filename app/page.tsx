@@ -15,12 +15,12 @@ export default function Home() {
         <HeroText
           initialPosition={100}
           className="font-extralight text-white selection:bg-white selection:text-slate-900"
-          firstText="Backend"
+          firstText="Full-Stack"
           secondText="Developer"
         />
 
         <div className="py-8">
-          <HeroQuote quote="Passionate backend developer with expertise in PHP and TypeScript." />
+          <HeroQuote quote="Passionate full-stack developer with expertise in PHP and TypeScript." />
         </div>
       </div>
     </div>
