@@ -1,15 +1,9 @@
 "use client";
 
+import { getRandomIntInclusive } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 const colors = ["bg-cyan-400", "bg-teal-400", "bg-fuchsia-400"];
-
-function getRandomIntInclusive(min: number, max: number) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
 
 export default function OrigamiProfile() {
   return (

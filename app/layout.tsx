@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
-import NavBar from "@/components/NavBar";
+import Navbar from "@/components/navbar";
 
 const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 const links = [
@@ -28,7 +28,7 @@ export default function RootLayout({
         fontSans.variable
       )}>
         <main className="overflow-hidden sm:me-[90px]">
-          <NavBar links={links} />
+          <Navbar links={links} />
           {children}
         </main>
       </body>

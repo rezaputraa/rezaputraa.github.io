@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import OrigamiProfile from "@/components/OrigamiProfile";
+import OrigamiProfile from "@/components/origami-profile";
 
 export default function Page() {
   return (

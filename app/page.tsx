@@ -1,7 +1,7 @@
 "use client";
 
-import HeroQuote from "@/components/HeroQuote";
-import HeroText from "@/components/HeroText";
+import HeroQuote from "@/components/hero-quote";
+import HeroText from "@/components/hero-text";
 
 export default function Home() {
   return (
